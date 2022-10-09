@@ -6,10 +6,8 @@
 }
 
 body {
-    background-color: #E5E5E5;; 
+    background-color: #E5E5E5; 
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
 }
 
 /* Inicio Logo Desktop */
@@ -99,7 +97,9 @@ input::placeholder {
 /* Fim parte-superior Desktop */
 
 .container {
-    margin: 0px auto;
+    max-width: 935px;
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
 }
@@ -260,10 +260,8 @@ span {
 
 .sugestao {
     width: 293px;
-    margin-left: 30px;
+    margin-left: 29px;
     margin-top: 111px;
-    display: flex;
-    flex-direction: column;
 }
 
 .cima-sugestao { 
@@ -308,8 +306,6 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
-    margin-bottom: 17px;
-
 }
 
 .bloco-1 p:nth-child(1) {
@@ -328,6 +324,10 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
+}
+
+#bloco-2-1 {
+    margin-top: 20px;
 }
 
 .bloco-2 img {
@@ -372,7 +372,6 @@ a {
     font-size: 12px;
     line-height: 14px;
     display: flex;
-    align-items: center;
     text-align: right;
     color: #139EF2;
 }
