@@ -98,6 +98,7 @@ input::placeholder {
 .container {
     display: flex;
     justify-content: center;
+    background-color: #E5E5E5;
 }
 
 .feed {
@@ -114,7 +115,7 @@ input::placeholder {
     border: 1px solid #DBDBDB;
     background-color: #FFFFFF;
     margin-top: 88px;
-    margin-bottom: 50px; 
+    margin-bottom: 24px; 
     overflow: hidden;
 
     position: relative;
@@ -204,6 +205,12 @@ input::placeholder {
 
 #meio img {
     width: 100%;
+}
+
+#meio video {
+    width: 100%;
+    background-color: #262626;
+    height: 614px;
 }
 
 #fim {
@@ -461,5 +468,7 @@ a {
     .barra-de-storys {
         margin-top: 54px;
         margin-bottom: 0px;
+        border: none;
+        background-color: #E5E5E5;
     }
 }
