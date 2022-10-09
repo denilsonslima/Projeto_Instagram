@@ -23,6 +23,7 @@ body {
     position: fixed;
     top: 0px;
     right: 0px;
+    z-index: 1000;
 }
 
 .logotipo {
@@ -97,14 +98,11 @@ input::placeholder {
 .container {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: auto;
 }
 
 .feed {
     max-width: 614px;
     width: 95%;
-    height: auto;
 }
 
 .barra-de-storys {
@@ -130,7 +128,6 @@ input::placeholder {
 
 .storys {
     width: 66px;
-    height: auto;
     margin-right: 14px;
 }
 
@@ -148,7 +145,6 @@ input::placeholder {
 
     /* posicionar imagem */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -457,5 +453,13 @@ a {
     .sugestao {
         display: none;
     }
-    
+
+    .setinha {
+        display: none;
+    }
+
+    .barra-de-storys {
+        margin-top: 54px;
+        margin-bottom: 0px;
+    }
 }
