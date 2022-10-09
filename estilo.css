@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #FAFAFA; 
+    background-color: #E5E5E5;; 
     font-family: 'Roboto', sans-serif;
 }
 
@@ -97,10 +97,10 @@ input::placeholder {
 /* Fim parte-superior Desktop */
 
 .container {
-    width: 100%;
+    width: 935px;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
-    background-color: #E5E5E5;
 }
 
 .feed {
