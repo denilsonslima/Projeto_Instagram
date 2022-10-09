@@ -118,6 +118,14 @@ input::placeholder {
     margin-top: 88px;
     margin-bottom: 50px; 
     overflow: hidden;
+
+    position: relative;
+}
+
+.setinha {
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
 }
 
 .storys {
@@ -227,6 +235,7 @@ input::placeholder {
 }
 
 .inferior-baixo img {
+    width: 20px;
     padding-right: 5px;
 }
 
