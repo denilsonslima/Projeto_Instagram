@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #E5E5E5; 
+    background-color: #fafafa; 
     font-family: 'Roboto', sans-serif;
 }
 
@@ -97,9 +97,6 @@ input::placeholder {
 /* Fim parte-superior Desktop */
 
 .container {
-    max-width: 935px;
-    width: 100%;
-    margin: auto;
     display: flex;
     justify-content: center;
 }
@@ -151,6 +148,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+
 
     /* mãozinha ao passar o mouse */
     cursor: pointer;
